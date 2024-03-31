@@ -1,0 +1,10 @@
+[package]
+name = "zipunsplitlib"
+version.workspace = true
+license.workspace = true
+edition.workspace = true
+repository.workspace = true
+publish = false
+
+[dependencies]
+thiserror = "1.0.57"
