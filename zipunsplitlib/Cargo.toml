@@ -7,4 +7,4 @@ repository.workspace = true
 publish = false
 
 [dependencies]
-thiserror = "1.0.57"
+thiserror = "2.0.11"
