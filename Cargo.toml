@@ -4,7 +4,7 @@ members = ["zipunsplit", "zipunsplitlib"]
 resolver = "2"
 
 [workspace.package]
-version = "0.1.0"
+version = "0.1.1"
 license = "GPL-3.0-only"
 edition = "2021"
 repository = "https://github.com/chenxiaolong/zipunsplit"

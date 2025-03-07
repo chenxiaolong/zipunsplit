@@ -264,7 +264,7 @@ checksum = "589f6da84c646204747d1270a2a5661ea66ed1cced2631d546fdfb155959f9ec"
 
 [[package]]
 name = "zipunsplit"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "anyhow",
  "clap",
@@ -273,7 +273,7 @@ dependencies = [
 
 [[package]]
 name = "zipunsplitlib"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "thiserror",
 ]
