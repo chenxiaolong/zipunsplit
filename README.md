@@ -40,4 +40,4 @@ The logic is all implemented in the `zipunsplitlib` library in this repo. It is 
 
 ## License
 
-zipunsplit is licensed under the GPLv3 license. For details, please see [`LICENSE`](./LICENSE).
+zipunsplit is licensed under GPL-3.0-only. Please see [`LICENSE`](./LICENSE) for the full license text.
