@@ -38,6 +38,14 @@ The resulting executable will be in `target/release/zipunsplit` or `target\relea
 
 The logic is all implemented in the `zipunsplitlib` library in this repo. It is only split out of `zipunsplit` because it is used by another (unpublished) personal project. There are no API stability guarantees. The semver versioning applies to CLI usage only.
 
+## Contributing
+
+([AI policy](https://github.com/chenxiaolong/chenxiaolong/blob/master/AI_POLICY.md))
+
+Bug fix pull requests are welcome and much appreciated!
+
+If you are interested in implementing a new feature and would like to see it included in zipunsplit, please open an issue to discuss it first.
+
 ## License
 
 zipunsplit is licensed under GPL-3.0-only. Please see [`LICENSE`](./LICENSE) for the full license text.
