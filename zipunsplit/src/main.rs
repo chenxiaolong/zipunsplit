@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2024 Andrew Gunnerson
+// SPDX-FileCopyrightText: 2024-2026 Andrew Gunnerson
 // SPDX-License-Identifier: GPL-3.0-only
 
 use std::{
@@ -8,21 +8,21 @@ use std::{
 };
 
 use anyhow::{Context, Result};
-use clap::Parser;
 
+use winnow_args::Args;
 use zipunsplitlib::file::{JoinedFile, MemoryCowFile, Opener};
 
-#[derive(Debug, Parser)]
-#[command(version)]
+#[derive(Debug, Args)]
+#[arg(version)]
 pub struct Cli {
     /// Split input files.
     ///
     /// The files must be specified in order.
-    #[arg(value_parser, value_name = "FILE")]
+    #[arg(value_name = "FILE")]
     pub input: Vec<PathBuf>,
 
     /// Joined output file.
-    #[arg(short, long, value_parser, value_name = "FILE")]
+    #[arg(short, long, value_name = "FILE")]
     pub output: PathBuf,
 }
 
