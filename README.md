@@ -36,7 +36,7 @@ The resulting executable will be in `target/release/zipunsplit` or `target\relea
 
 ## Use as a library
 
-The logic is all implemented in the `zipunsplitlib` library in this repo. It is only split out of `zipunsplit` because it is used by another (unpublished) personal project. There are no API stability guarantees. The semver versioning applies to CLI usage only.
+The logic is all implemented in the `zipunsplitlib` library in this repo.
 
 ## Contributing
 
