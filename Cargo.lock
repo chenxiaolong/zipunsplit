@@ -179,7 +179,7 @@ dependencies = [
 
 [[package]]
 name = "zipunsplit"
-version = "0.1.1"
+version = "1.0.0"
 dependencies = [
  "anyhow",
  "winnow-args",
@@ -188,7 +188,7 @@ dependencies = [
 
 [[package]]
 name = "zipunsplitlib"
-version = "0.1.1"
+version = "1.0.0"
 dependencies = [
  "thiserror",
 ]
